@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkgray;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: antiquewhite;
+             padding: 20px;
+
+        }
+        .links {
+            color: black;
+            display: flex;
+            gap: 20px;
+            
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-size: large;
+        }
+        a:hover {
+            color: cadetblue;
+        }
+        /* .obrazek {
+            margin-left: 20px;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="obrazek">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1200px-UEFA_Champions_League.svg.png" width="50px" alt="" class="logo">
+            </div>
+            <div class="links">
+                <a href="#">Clubs</a>
+                <a href="#">Players</a>
+                <a href="#">Goals</a>
+                <a href="#">Coaches</a>
+            </div>
+            <div>
+                <input class="input" type="text" placeholder="search..."></input>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>

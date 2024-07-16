@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        .footer-columns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 60%;
+            margin-bottom: 20px;
+        }
+        .footer-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-title {
+            border-bottom: 2px solid black;
+            margin-bottom: 10px;
+        }
+        a, p{
+            color: black;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        a:hover {
+            color: blueviolet;
+        }
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-section">
+                <h4 class="footer-title">Company</h4>
+                <a href="#">Home Page</a>
+                <a href="#">About Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">TOS</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Help</h4>
+                <a href="#">Help</a>
+                <a href="#">Affiliates</a>
+                <a href="#">FAQ</a>
+                <a href="#">Shipping info</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Address</h4>
+                <p>ulica 123</p>
+                <p>gdansk 80-041</p>
+                <p>Polska</p>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <a href="#">
+                <img src="https://www.shutterstock.com/image-vector/youtube-vector-logo-icon-logotype-260nw-2322975681.jpg" alt="" width="60px">
+            </a>
+            <a href="#">
+                <img src="https://c0.klipartz.com/pngpicture/564/543/gratis-png-instagram-iconos-de-computadora-instagram.png" alt="" width="30px">
+            </a>
+            <a href="#">
+                <img src="https://img.freepik.com/premium-psd/kwadrat-3d-z-logo-facebooka_986089-17.jpg" alt="" width="40px ">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

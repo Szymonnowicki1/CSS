@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article {
+            border:1px solid black;
+        }
+        .comment {
+            color:blue;
+        }
+        #best-comment.comment{
+            background: yellow;
+        }
+        header > p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <header>
+                <h2>Artykuł na Blogu</h2>
+                <p>Autor: <a href="#">Szymon</a></p>
+            </header>
+            <p class="article-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, tenetur tempora quod beatae ea velit ducimus quae doloribus eos ipsa esse quidem accusantium eius rerum dolores voluptates maxime! Aut, aliquam recusandae. Quis modi omnis tenetur porro sint itaque numquam minima et illo natus reiciendis cupiditate magni, repudiandae maiores veritatis facilis. Exercitationem, possimus. Sed quis adipisci inventore suscipit accusantium! Dolorem libero vitae similique, impedit laborum est excepturi, iste blanditiis beatae aspernatur expedita. Molestiae iste cum porro perferendis aspernatur. Distinctio maiores iusto laboriosam ad eius quis laudantium minima animi! Ipsum voluptates error dolorum commodi, explicabo esse, vitae aspernatur minima veritatis atque rerum!</p>
+            <section class="comments">
+                <article class="comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, labore.</p>
+                </article>
+                <article class="comment" id="best-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, labore.</p>
+                </article>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
